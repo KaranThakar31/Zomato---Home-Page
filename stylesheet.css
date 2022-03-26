@@ -80,7 +80,6 @@ select{
     margin-left: 5%;
     margin-top: 2%;
     overflow-y:scroll ;
-    overflow-x: scroll;
 }
 #quickheading{
     font-size:30px;
@@ -96,11 +95,12 @@ select{
 }
 .tilecontainer{
     height: 180px;
-    width: 30% !important;
+    width: 30%;
     display: inline-block;
-    margin-left: 2%;
-    margin-top: 2% !important;
     box-shadow: 10px 20px 10px gray;
+    text-align: center;
+    margin:auto;
+    margin-top: 1%;
 }
 .tilecomponent1{
     width: 50%;
@@ -223,7 +223,7 @@ p{
         margin-top: 19%;
     }
     #tilecontainer{
-        width: 324px !important;
+        width: 324px;
     }
 }
 @media screen and (max-width:1150px){
